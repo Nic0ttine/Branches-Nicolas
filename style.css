@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+button {
+    padding: 30px;
+    justify-content: center;
+}
