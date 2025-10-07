@@ -1,13 +1,43 @@
-h1 {
+.title{
+    justify-content: center;
+    display: flex;
     color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 body {
     color: white;
     background-color: black;
 }
 
+p {
+    justify-content: center ;
+    text-align: center;
+}
+
+.div-button {
+    justify-content: center;
+    display: flex;
+}
+
+
 button {
     padding: 30px;
     justify-content: center;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(255, 0, 0, 0.5);
 }
